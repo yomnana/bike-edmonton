@@ -1,0 +1,631 @@
+/* FONTS */
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* GLOBAL STYLES */
+
+/* BIKES & PARTS HERO */
+.bike3 {
+  width: 558px;
+  height: 356px;
+  padding-top: 10px;
+}
+
+#bikeparts-hero {
+  display: flex;
+  width: 1222px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+h1.buy {
+  width: 728px;
+  flex-shrink: 0;
+}
+
+/* REFURBISHED SECTION */
+li.refur {
+  font-family: "Montserrat", sans-serif;
+  size: 16px;
+  color: #04387C;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+button.size {
+  color: #04387C;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  width: 159px;
+  height: 75px;
+  padding: 30px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  border: 5px solid #04387C;
+  background-color: #FFF;
+}
+
+.size-btns {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  align-self: stretch;
+}
+
+#sale {
+  display: flex;
+  width: 742px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+/* STEPS SECTION */
+.graphic2 {
+  color: #04387C;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-right: 10px;
+  width: 100px;
+}
+
+p.steps {
+  display: flex;
+  width: 592px;
+  height: 79px;
+  padding: 21px 17px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 3px solid #04387C;
+}
+
+.steps {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0px;
+  padding: 0px;
+  width: 696px;
+  height: 80px;
+}
+
+#steps {
+  display: flex;
+  width: 696px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.appointments {
+  display: flex;
+  width: 740px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0px;
+  padding-bottom: 80px;
+}
+
+/* BOOKING SECTION */
+h1.book {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  align-self: stretch;
+}
+
+p.book{
+  color: #FFF;
+  text-align: center;
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+
+button.book {
+  display: flex;
+  width: 197px;
+  height: 60px;
+  padding: 20px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #BFF4F4;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.book {
+  display: flex;
+  width: 858px;
+  flex-direction: column;
+  align-items: center;
+  gap: 31px;
+}
+
+#book {
+  display: flex;
+  width: 1280px;
+  height: 401px;
+  padding: 64px 210px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* SMARTPHONE VERSION */
+@media screen and (max-width: 480px) {
+/* LAYOUT CHANGES */
+
+    .hidden-mobile {
+     display: none;
+    }
+    
+    .hidden-desktop {
+     display: flex;
+    }
+
+    .is-hidden {
+      display: none;
+    }
+
+    .margin-default {
+      margin: 0 24px;
+    }
+
+    .padding-default {
+      padding: 80px 0;
+    }
+
+    .padding-bottom {
+      padding-bottom: 80px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template: auto / 1fr;
+      column-gap: 104px;
+    }
+
+    /* SECTION CHANGES */
+    /* Hero */
+    #about {
+      display: flex;
+      width: 393px;
+      height: 131px;
+      padding: 34px 80px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      margin-top: 40px;
+    }
+
+    /* ---Side Nav--- */
+    button.side-nav {
+      display: flex;
+      width: 393px;
+      height: 43px;
+      padding: 11px 49px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    button#side-nav {
+      display: flex;
+      width: 393px;
+      height: 43px;
+      padding: 11px 49px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 0;
+      align-self: stretch;
+    }
+
+    /* For Sale */
+    #space-btw {
+      display: flex;
+      width: 400px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    button.size {
+      display: flex;
+      width: 314px;
+      height: 75px;
+      padding: 30px 109px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 60px;
+      border: 5px solid #04387C;
+      color: #04387C;
+      text-align: center;
+      leading-trim: both;
+      text-edge: cap;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    .size-btns {
+      display: flex;
+      width: 320px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 24px;
+    }
+
+    #sale {
+      display: flex;
+      width: 393px;
+      height: 471px;
+      padding: 25px 32px;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    /* Steps */
+    h1.graphic2 {
+      width: 88px;
+      font-size: 100px;
+    }
+
+    p.steps {
+      display: flex;
+      width: 208px;
+      height: 123px;
+      padding: 13px 18px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      font-size: 14px;
+    }
+
+    .steps {
+      display: inline-flex;
+      align-items: center;
+      width: 296px;
+      height: 123px;
+    }
+
+    #steps {
+      display: flex;
+      width: 296px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 400px;
+    }
+
+    .shopping {
+      display: flex;
+      width: 296px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .appointments {
+      display: flex;
+      width: 299px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      padding-bottom: 300px;
+    }
+
+    /* Booking */
+    h1.book {
+      width: 355px;
+      height: 92px;
+      color: #FFF;
+      text-align: center;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    p.book {
+      width: 295px;
+      height: 78px;
+      font-size: 16px;
+    }
+
+    button.book {
+      width: 254px;
+      height: 79px;
+      flex-shrink: 0;
+    }
+
+    .book {
+      display: flex;
+      width: 285px;
+      flex-direction: column;
+      align-items: center;
+      gap: 33px;
+    }
+
+    #book {
+      display: flex;
+      width: 393px;
+      height: 343px;
+      padding: 34px 49px 200px 49px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+
+/* TABLET */
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    /* LAYOUT CHANGES */
+
+    .hidden-mobile {
+     display: none;
+    }
+    
+    .hidden-desktop {
+     display: flex;
+    }
+
+    .is-hidden {
+      display: none;
+    }
+
+    .margin-default {
+      margin: 0 24px;
+    }
+
+    .padding-default {
+      padding: 80px 0;
+    }
+
+    .padding-bottom {
+      padding-bottom: 80px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template: auto / 1fr;
+      column-gap: 104px;
+    }
+
+    /* SECTION CHANGES */
+    /* Hero */
+    #about {
+      display: flex;
+      width: 393px;
+      height: 131px;
+      padding: 34px 80px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      margin-top: 40px;
+    }
+
+    /* ---Side Nav--- */
+    button.side-nav {
+      display: flex;
+      width: 393px;
+      height: 43px;
+      padding: 11px 49px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    button#side-nav {
+      display: flex;
+      width: 393px;
+      height: 43px;
+      padding: 11px 49px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 0;
+      align-self: stretch;
+    }
+
+    /* For Sale */
+    #space-btw {
+      display: flex;
+      width: 400px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    button.size {
+      display: flex;
+      width: 314px;
+      height: 75px;
+      padding: 30px 109px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 60px;
+      border: 5px solid #04387C;
+      color: #04387C;
+      text-align: center;
+      leading-trim: both;
+      text-edge: cap;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    .size-btns {
+      display: flex;
+      width: 320px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 24px;
+    }
+
+    #sale {
+      display: flex;
+      width: 393px;
+      height: 471px;
+      padding: 25px 32px;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    /* Steps */
+    h1.graphic2 {
+      width: 88px;
+      font-size: 100px;
+    }
+
+    p.steps {
+      display: flex;
+      width: 208px;
+      height: 123px;
+      padding: 13px 18px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      font-size: 14px;
+    }
+
+    .steps {
+      display: inline-flex;
+      align-items: center;
+      width: 296px;
+      height: 123px;
+    }
+
+    #steps {
+      display: flex;
+      width: 296px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 400px;
+    }
+
+    .shopping {
+      display: flex;
+      width: 296px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .appointments {
+      display: flex;
+      width: 299px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      padding-bottom: 300px;
+    }
+
+    /* Booking */
+    h1.book {
+      width: 355px;
+      height: 92px;
+      color: #FFF;
+      text-align: center;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    p.book {
+      width: 295px;
+      height: 78px;
+      font-size: 16px;
+    }
+
+    button.book {
+      width: 254px;
+      height: 79px;
+      flex-shrink: 0;
+    }
+
+    .book {
+      display: flex;
+      width: 285px;
+      flex-direction: column;
+      align-items: center;
+      gap: 33px;
+    }
+
+    #book {
+      display: flex;
+      width: 393px;
+      height: 343px;
+      padding: 34px 49px 200px 49px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+
+
+
