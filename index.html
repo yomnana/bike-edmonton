@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bike Edmonton Homepage</title>
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/bikesparts.css">
+    <link rel="stylesheet" href="styles/services.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head> 
+
+<!-- This is where all the body content begins -->
+<body>
+<!-- NAVIGATION -->
+    <header> <!-- HEADER BEGIN -->
+        <!-- DESKTOP NAV -->
+        <section class="hidden-mobile"> <!-- SECTION BEGIN -->
+            <div class="sect-blue"> 
+                <nav id="top-nav1" class="padding-40 margin-default">
+                    <div class="top-nav1">
+                        <div id="logo">
+                            <a href="index.html"><img src="P4 Media/BikeEdmonton_logo1.png" alt="Bike Edmonton logo 1"></a>
+                        </div>
+
+                        <div class="top-nav1-buttons">
+                            <button class="search"><a href="index.html"><img src="P4 Media/search-normal.png" alt="Search Icon"></a></button>
+                            
+                            <button class="donate"><a>Donate Now</a></button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="sect-grey top-nav2">
+                <nav id="top-nav" class="padding-40 margin-default top-nav2-buttons">
+                    <ul>
+                        <li class="nav"><a>About Us</a></li>
+                        <li class="nav"><a>Bikes & Parts</a></li>
+                        <li class="nav"><a>Our Workshop</a></li>
+                        <li class="nav"><a>Services</a></li>
+                        <li class="nav"><a>Knowledge</a></li>
+                        <li class="nav"><a>Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- DESKTOP END -->
+        </section> <!-- SECTION END -->
+
+        <!-- MOBILE NAV -->
+        <section class="hidden-desktop"> <!-- SECTION BEGIN -->
+            <div class="sect-blue"> 
+                <nav id="top-nav1" class="padding-40 margin-default">
+                    <div class="top-nav1">
+                        <div id="logo">
+                            <a href="index.html"><img src="P4 Media/BikeEdmonton_logo1.png"></a>
+                        </div>
+
+                        <div> <!-- HAMBURGER ICON -->
+                            <svg width="36" height="22" viewBox="0 0 36 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="36" height="2" fill="white"/>
+                            <rect width="36" height="2" transform="translate(0 10)" fill="white"/>
+                            <rect width="36" height="2" transform="translate(0 20)" fill="white"/>
+                            </svg>
+                        </div>
+                </nav>
+            </div>
+        </section> <!-- SECTION END -->
+        <!-- MOBILE END -->
+    </header> <!-- HEADER END -->
+
+<!-- HERO SECTION -->
+    <section id="hero" class="sect-lightblue"> <!-- SECTION BEGIN -->
+        <!-- DESKTOP HERO -->
+        <div class="margin-default hero-img hidden-mobile">
+            <div class="bike1 hidden-mobile">
+                <img class="bike1" src="P4 Media/Bike1.png" alt="Black Bike">
+            </div>
+
+            <div class="hero hidden-mobile">
+                <h1>Enjoy Cycling!</h1>
+                <div><p>Whether you ride once a week or year-round, Bike Edmonton gives you the tools you need to enjoy cycling.</p></div>
+            </div>
+        </div>
+        <!-- DESKTOP END -->
+
+        <!-- MOBILE HERO -->
+        <div id="hero" class="margin-default hero-img hidden-desktop hero-mobile">
+            <div class="hidden-desktop">
+                <h1 class="hero">Enjoy Cycling!</h1>
+            </div>
+
+            <div class="bike1 hidden-desktop">
+                <img class="bike1" src="P4 Media/Bike1.png" alt="Black Bike">
+            </div>
+
+            <div class="hidden-desktop">
+                <p>Whether you ride once a week or year-round, Bike Edmonton gives you the tools you need to enjoy cycling.</p>
+            </div>
+        </div>
+        <!-- MOBILE END -->
+    </section> <!-- SECTION END -->   
+
+<!-- 3 BUTTON SECTION -->
+    <section id="btn3" class="margin-default padding-40"> <!-- SECTION BEGIN -->
+        <!-- DESKTOP 3 BUTTON -->
+        <div class="hidden-mobile">
+            <div class="btn3-flex hidden-mobile">
+                <div class="btn3-box">
+                    <h3 class="title">Bikes & Parts</h3>
+                    <img src="P4 Media/BikesParts_Home.png" alt="Bike Parts">
+                </div>
+
+                <div class="btn3-box">
+                    <h3 class="title">Our Workshop</h3>
+                    <img src="P4 Media/Workshop_Home.png" alt="Workshop">
+                </div>
+
+                <div class="btn3-box">
+                    <h3 class="title">Book an Appointment</h3>
+                    <img src="P4 Media/Appointment_Home.png" alt="Book an Appointment">
+                </div>
+            </div>
+        </div>
+        <!-- DESKTOP END -->
+
+        <!-- MOBILE 3 BUTTON -->
+        <div id="btn3" class="hidden-desktop">
+            <div class="btn3-flex hidden-desktop">
+                <div class="btn3-box">
+                    <h3 class="title">Bikes & Parts</h3>
+                    <img class="img-3btn" src="P4 Media/BikesParts_Mobile.png" alt="Bike Parts">
+                </div>
+
+                <div class="btn3-box hidden-desktop">
+                    <h3 class="title">Our Workshop</h3>
+                    <img class="img-3btn" src="P4 Media/Workshop_Mobile.png" alt="Workshop">
+                </div>
+
+                <div class="btn3-box hidden-desktop">
+                    <h3 class="title">Book an Appointment</h3>
+                    <img class="img-3btn" src="P4 Media/Appointment_Mobile.png" alt="Book an Appointment">
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE END -->
+    </section> <!-- SECTION END -->
+
+<!-- LATEST NEWS -->
+    <section id="latest-news" class="sect-lightblue"> <!-- SECTION BEGIN -->
+        <!-- DESKTOP NEWS -->
+        <div class="latest-news margin-default hidden-mobile">
+            <h2 class="news hidden-mobile">Latest News:</h2>
+
+            <div id="news-scroll" class="hidden-mobile">
+                <div class="news-container hidden-mobile">
+                    <img class="hidden-mobile" src="P4 Media/Cycling_Caps.png" alt="Cycling Caps">
+                    <h3 class="news news-centered hidden-mobile">Bike Edmoton Cycling Caps!</h3>
+                </div>
+
+                <div class="news-container hidden-mobile">
+                    <h3 class="news news-centered hidden-mobile">Bike Edmoton's Annual General Meeting</h3>
+                    <img class="hidden-mobile" src="P4 Media/General_Meeting.png" alt="General Meeting">
+                </div>
+
+                <div class="news-container hidden-mobile">
+                    <h3 class="news news-centered hidden-mobile">Our South Shop is Closing</h3>
+                    <img class="hidden-mobile" src="P4 Media/South_Shop.png" alt="South Shop">
+                </div>
+
+                <div class="hidden-mobile">
+                    <button class="more"><a href="index.html"><img src="P4 Media/Arrow.png" alt="More Arrow"></a></button>
+                </div>
+            </div>
+        </div>
+        <!-- DESKTOP END -->
+
+        <!-- MOBILE NEWS -->
+        <div id="latest-news" class="margin-default hidden-desktop">
+            <div class="latest-news hidden-desktop">
+                <h2 class="news hidden-desktop">Latest News:</h2>
+
+                <div id="news-scroll" class="hidden-desktop">
+                    <div class="news-container">
+                        <img src="P4 Media/Cycling_Caps.png" alt="Cycling Caps">
+                        <h3 class="news news-centered">Bike Edmoton Cycling Caps!</h3>
+                    </div>
+
+                    <div>
+                        <button class="more"><a href="index.html">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE END -->
+    </section> <!-- SECTION END -->
+
+<!-- OUR MISSION -->
+    <section id="mission" class="sect-blue"> <!-- SECTION BEGIN -->
+        <!-- DESKTOP MISSION -->
+        <div class="margin-default mission hidden-mobile">
+            <div>
+                <h2 class="mission">Our Mission</h2>
+            </div>
+
+            <div>
+                <p class="mission">Bike Edmonton is a non-profit society dedicated to making everyday cycling in Edmonton safer and more widespread by providing bicycle services, education, and civic representation. We promote the bicycle as a healthy, economical, and ecologically sound mode of transportation.</p>
+            </div>
+        </div>
+        <!-- DESKTOP END -->
+
+        <!-- MOBILE MISSION -->
+        <div id="mission"  class="margin-default hidden-desktop">
+            <div class="mission hidden-desktop">
+                <div>
+                    <h2 class="mission">Our Mission</h2>
+                </div>
+
+                <div>
+                    <p class="mission">Bike Edmonton is a non-profit society dedicated to making everyday cycling in Edmonton safer and more widespread by providing bicycle services, education, and civic representation. We promote the bicycle as a healthy, economical, and ecologically sound mode of transportation.</p>
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE END -->
+    </section> <!-- SECTION END -->
+
+<!-- SUPPORT US -->
+    <section class="sect-white"> <!-- SECTION BEGIN -->
+        <!-- DESKTOP SUPPORT -->
+        <div id="support" class="margin-default hidden-mobile">
+            <div class="support hidden-mobile">
+                <h1 class="support hidden-mobile">Support Us!</h1>
+                <p class="support hidden-mobile">We have helped thousands of people find a bike to ride and learn to fix their bike. Your financial support makes it possible for us to keep doing this work!</p>
+                <button class="donate2 hidden-mobile"><a>Donate Now</a></button>
+            </div>
+        </div>
+        <!-- DESKTOP END -->
+
+        <!-- MOBILE SUPPORT -->
+        <div class="margin-default hidden-desktop">
+            <div class="support hidden-desktop">
+                <h1 class="support hidden-desktop">Support Us!</h1>
+                <p class="support hidden-desktop">We have helped thousands of people find a bike to ride and learn to fix their bike. Your financial support makes it possible for us to keep doing this work!</p>
+                <button class="donate2 hidden-desktop"><a>Donate Now</a></button>
+            </div>
+        </div>
+        <!-- MOBILE END -->
+    </section> <!-- SECTION END -->
+
+<!-- LAND ACKNOWLEDGMENT -->
+    <section id="land" class="sect-drkgrey"> <!-- SECTION BEGIN -->
+        <!-- DESKTOP LAND -->
+        <div class="margin-default mission hidden-mobile">
+            <div class="hidden-mobile">
+                <h2 class="mission">Land Acknowledgment</h2>
+            </div>
+
+            <div class="hidden-mobile">
+                <p class="mission">Bike Edmonton acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway / Saulteaux / Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community. We acknowledge that we are all treaty people and we are committed to equity and justice for all our relations.</p>
+            </div>
+        </div>
+        <!-- DESKTOP END -->
+
+        <!-- MOBILE LAND -->
+        <div id="land" class="margin-default mission hidden-desktop">
+            <div class="land hidden-desktop">
+                <div class="hidden-desktop">
+                    <h2 class="mission">Land Acknowledgment</h2>
+                </div>
+
+                <div class="hidden-desktop">
+                    <p class="mission">Bike Edmonton acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway / Saulteaux / Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community. We acknowledge that we are all treaty people and we are committed to equity and justice for all our relations.</p>
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE END -->
+    </section> <!-- SECTION END -->
+
+<!-- FOOTER -->
+    <section id="footer-sect" class="sect-grey"> <!-- SECTION BEGIN -->
+        <!-- DESKTOP FOOTER -->
+        <div class="margin-default footer-content padding-40 hidden-mobile">
+            <div id="logo2 hidden-mobile">
+                <img class="hidden-mobile" src="P4 Media/BikeEdmonton_logo2.png" alt="Bike Edmonton logo 2">
+            </div>
+
+            <div class="footer-nav hidden-mobile">
+                <nav id="footer">
+                    <div class="hidden-mobile">
+                        <ul class="footer-navli">
+                            <li class="nav"><a>About Us</a></li>
+                            <li class="nav"><a>Bikes & Parts</a></li>
+                            <li class="nav"><a>Services</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="footer-nav hidden-mobile">
+                <nav id="footer">
+                   <div class="hidden-mobile">
+                       <ul class="footer-navli">
+                            <li class="nav"><a>Our Workshop</a></li>
+                            <li class="nav"><a>Knowledge</a></li>
+                            <li class="nav"><a>Blog</a></li>
+                        </ul> 
+                    </div>
+                </nav>
+            </div>
+
+            <div class="hidden-mobile">
+                <h4 class="footer">Location</h4>
+                <p class="footer">10612 105 Ave NW, Edmonton, AB T5H 0L2</p>
+            </div>
+
+            <div class="hidden-mobile">
+                <h4 class="footer">Stay Connected</h4>
+
+                <div class="icons">
+                    <a href="#"><img src="P4 Media/Twitter.svg"></a>
+                    <a href="#"><img src="P4 Media/Facebook.svg"></a>
+                    <a href="#"><img src="P4 Media/YouTube.svg"></a>
+                    <a href="#"><img src="P4 Media/Instagram.svg"></a>
+                </div>
+            </div>
+        </div>
+        <!-- DESKTOP END -->
+
+        <!-- MOBILE FOOTER -->
+        <div id="footer-content" class="margin-default padding-40 hidden-desktop">
+            <div class="footer">
+                <div id="logo2 hidden-desktop">
+                    <div>
+                        <img src="P4 Media/BikeEdmonton_logo2.png" alt="Bike Edmonton logo 2">
+                    </div>
+                </div>
+
+                <div class="footer-nav hidden-desktop">
+                    <nav id="footer">
+                        <div>
+                            <ul class="footer-navli">
+                                <li class="nav"><a>About Us</a></li>
+                                <li class="nav"><a>Bikes & Parts</a></li>
+                                <li class="nav"><a>Services</a></li>
+                                <li class="nav"><a>Our Workshop</a></li>
+                                <li class="nav"><a>Knowledge</a></li>
+                                <li class="nav"><a>Blog</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="location">
+                        <h4 class="footer">Location</h4>
+                        <p class="footer">10612 105 Ave NW, Edmonton, AB T5H 0L2</p>
+                    </div>
+
+                    <div class="connected">
+                        <h4 class="footer">Stay Connected</h4>
+                        <div class="icons">
+                            <a href="#"><img src="P4 Media/Twitter.svg"></a>
+                            <a href="#"><img src="P4 Media/Facebook.svg"></a>
+                            <a href="#"><img src="P4 Media/YouTube.svg"></a>
+                            <a href="#"><img src="P4 Media/Instagram.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE END -->
+    </section> <!-- SECTION END -->
+<!-- This is where all the body content ends -->
+</body>
+</html>
