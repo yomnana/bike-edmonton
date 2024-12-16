@@ -1,0 +1,552 @@
+/* FONTS */
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* GLOBAL STYLES */
+
+/* ABOUT HERO */
+.bike2 {
+  width: 632px;
+  height: 352px;
+  padding-top: 10px;
+}
+
+/* ABOUT NAV */
+button.side-nav {
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 18px */
+  letter-spacing: -0.198px;
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+button#side-nav {
+  display: inline-flex;
+  width: 300px;
+  height: 43px;
+  padding: 12px 14px;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+  background: #D9D9D9;
+}
+
+.img-arrow {
+  display: flex;
+  width: 20.035px;
+  height: 18.864px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.side-nav {
+  display: flex;
+  width: 279px;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.side-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+h3.nav-title {
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  align-self: stretch;
+}
+
+/* CYCLING IS FOR EVERYONE */
+h1.pg-title {
+  color: #04387C;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 739px;
+  height: 53px;
+  flex-shrink: 0;
+}
+
+.cycling {
+  display: flex;
+  width: 739px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0px;
+}
+
+#cycling {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 66px;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+h3.subhead {
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h3.our-subhead{
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.our {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 40px;
+}
+
+#our {
+  display: flex;
+  width: 739px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 89px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.spce-btw {
+  display: flex;
+  width: 1084px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 87px;
+}
+
+/* OBJECTIVES */
+h1.graphic1 {
+  color: #04387C;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 240px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+p.objectives {
+  border-radius: 10px;
+  background: #B2E5E5;
+  display: flex;
+  width: 631px;
+  height: 80px;
+  padding: 34px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.objectives {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0px;
+  padding: 0px;
+  width: 746px;
+  height: 154px;
+}
+
+#objectives {
+  display: flex;
+  width: 746px;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+/* SMARTPHONE VERSION */
+@media screen and (max-width: 480px) {
+ /* LAYOUT CHANGES */
+
+    .hidden-mobile {
+     display: none;
+    }
+    
+    .hidden-desktop {
+     display: flex;
+    }
+
+    .is-hidden {
+      display: none;
+    }
+
+    .margin-default {
+      margin: 0 24px;
+    }
+
+    .padding-default {
+      padding: 80px 0;
+    }
+
+    .padding-bottom {
+      padding-bottom: 80px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template: auto / 1fr;
+      column-gap: 104px;
+    }
+
+    /* SECTION CHANGES */
+    /* Hero */
+    #about {
+      display: flex;
+      width: 393px;
+      height: 131px;
+      padding: 34px 80px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      margin-top: 40px;
+    }
+
+    /* ---Side Nav--- */
+    button.side-nav {
+      display: flex;
+      width: 393px;
+      height: 43px;
+      padding: 11px 49px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 0;
+    }
+
+    #side-nav {
+      display: flex;
+      width: 393px;
+      height: 43px;
+      padding: 11px 49px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 0;
+      align-self: stretch;
+    }
+
+    /* ---Cycling--- */
+    h1.pg-title {
+      color: #04387C;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: Montserrat;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      width: 295px;
+      height: 85px;
+      flex-shrink: 0;
+    }
+
+    .space-btw {
+      display: flex;
+      width: 295px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .our {
+      display: flex;
+      width: 293px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding-top: 100px;
+    }
+
+    h3.our-subhead {
+      padding-bottom: 0px;
+    }
+
+    /* ---Objectives--- */
+    h1.graphic1 {
+      color: #04387C;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: Montserrat;
+      font-size: 175px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      text-transform: uppercase;
+      width: 88px;
+      height: 129px;
+      flex-shrink: 0;
+    }
+
+    p.objectives {
+      display: flex;
+      width: 183px;
+      height: 123px;
+      padding: 30px 14px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    #objectives {
+      display: flex;
+      width: 329px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 100px;
+      padding-top: 80px;
+    }
+
+    .objectives {
+      width: 329px;
+      height: 129px;
+      gap: 40px;
+    }
+
+    .sect-objectives {
+      padding-top: 80px;
+      padding-bottom: 0px;
+    }
+
+/* TABLET */
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    /* LAYOUT CHANGES */
+
+    .hidden-mobile {
+     display: none;
+    }
+    
+    .hidden-desktop {
+     display: flex;
+    }
+
+    .is-hidden {
+      display: none;
+    }
+
+    .margin-default {
+      margin: 0 24px;
+    }
+
+    .padding-default {
+      padding: 80px 0;
+    }
+
+    .padding-bottom {
+      padding-bottom: 80px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template: auto / 1fr;
+      column-gap: 104px;
+    }
+
+    /* SECTION CHANGES */
+    /* Hero */
+    #about {
+      display: flex;
+      width: 393px;
+      height: 131px;
+      padding: 34px 80px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      margin-top: 40px;
+    }
+
+    /* ---Side Nav--- */
+    button.side-nav {
+      display: flex;
+      width: 393px;
+      height: 43px;
+      padding: 11px 49px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 0;
+    }
+
+    #side-nav {
+      display: flex;
+      width: 393px;
+      height: 43px;
+      padding: 11px 49px;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 0;
+      align-self: stretch;
+    }
+
+    /* ---Cycling--- */
+    h1.pg-title {
+      color: #04387C;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: Montserrat;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      width: 295px;
+      height: 85px;
+      flex-shrink: 0;
+    }
+
+    .space-btw {
+      display: flex;
+      width: 295px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .our {
+      display: flex;
+      width: 293px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding-top: 100px;
+    }
+
+    h3.our-subhead {
+      padding-bottom: 0px;
+    }
+
+    /* ---Objectives--- */
+    h1.graphic1 {
+      color: #04387C;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: Montserrat;
+      font-size: 175px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      text-transform: uppercase;
+      width: 88px;
+      height: 129px;
+      flex-shrink: 0;
+    }
+
+    p.objectives {
+      display: flex;
+      width: 183px;
+      height: 123px;
+      padding: 30px 14px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    #objectives {
+      display: flex;
+      width: 329px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 100px;
+      padding-top: 80px;
+    }
+
+    .objectives {
+      width: 329px;
+      height: 129px;
+      gap: 40px;
+    }
+
+    .sect-objectives {
+      padding-top: 80px;
+      padding-bottom: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
